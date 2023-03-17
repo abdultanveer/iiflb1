@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:iiflb1/state/parent_widget.dart';
 import 'package:iiflb1/state/tapbox_a.dart';
 
 void main(){
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
           title: Text('state demo'),
         ),
         body: Center(
-          child: TapBoxA(),
+          child: ParentWidget(),
         ),
       ),
 
